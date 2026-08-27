@@ -686,7 +686,8 @@
     <div class="regalo-categoria">
       <div class="cat-header"><span class="cat-icon">🍽️</span><span class="cat-title">Cocina</span></div>
       <div class="regalo-grid">
-        <div class="regalo-item" onclick="giftClick('Vasos')"
+        <div class="regalo-item tomado" onclick="alert('💛 ¡Este regalo ya está cubierto! Podés elegir otro de la lista.')" style="cursor:pointer">
+          <div class="regalo-badge">Ya cubierto 💛</div>
           <span class="regalo-emoji">🥃</span>
           <span class="regalo-nombre">Vasos</span>
         </div>
@@ -752,28 +753,10 @@
     <div class="regalo-categoria">
       <div class="cat-header"><span class="cat-icon">🛋️</span><span class="cat-title">Living & Comedor</span></div>
       <div class="regalo-grid">
-        <div class="regalo-compartido" id="regalo-mesa">
-          <div class="rc-top">
-            <span class="rc-emoji">🪑</span>
-            <div class="rc-info">
-              <span class="rc-nombre">Mesa y sillas de comedor</span>
-              <span class="rc-precio">$400.000 · 4 partes de $100.000</span>
-            </div>
-            <div class="rc-dots" id="rc-dots-mesa"></div>
-          </div>
-          <div class="rc-barra-wrap">
-            <div class="rc-barra-header">
-              <span class="rc-barra-label">Progreso del regalo</span>
-              <span class="rc-barra-pct" id="rc-pct-mesa">Cargando...</span>
-            </div>
-            <div class="rc-barra-bg">
-              <div class="rc-barra-fill" id="rc-fill-mesa" style="width:0%"></div>
-            </div>
-          </div>
-          <div class="rc-footer">
-            <span class="rc-footer-text" id="rc-ftxt-mesa">—</span>
-            <button class="rc-btn" id="rc-btn-mesa" onclick="sumarseRC('mesa')">Me sumo 🎁</button>
-          </div>
+        <div class="regalo-item tomado" onclick="alert('💛 ¡Este regalo ya está cubierto! Podés elegir otro de la lista.')" style="cursor:pointer">
+          <div class="regalo-badge">Ya cubierto 💛</div>
+          <span class="regalo-emoji">🪑</span>
+          <span class="regalo-nombre">Mesa y sillas de comedor</span>
         </div>
         <div class="regalo-compartido" id="regalo-sillon">
           <div class="rc-top">
@@ -1042,7 +1025,7 @@
     <h2 class="section-title" style="text-align:center">Confirmá tu <em>asistencia</em></h2>
     <div class="precio-tarjeta">
       <span class="precio-label">Valor por persona</span>
-      <span class="precio-monto">$40.000</span>
+      <span class="precio-monto">$50.000</span>
     </div>
     <p class="section-body" style="text-align:center;margin-top:1.5rem;">Para poder tener todo listo y que nada falte,<br/>te pedimos que confirmes antes del <strong>10 de julio</strong>.</p>
     <a href="https://wa.me/542616214040?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Jazmín%20y%20Alex%20🌸" class="btn-confirm" target="_blank">Confirmar asistencia</a>
